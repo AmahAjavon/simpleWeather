@@ -1,0 +1,63 @@
+doctype html
+html(lang='en')
+  head
+    title Simple weather app by Amah Ajavon
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='/style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js')
+  body
+    .container
+      form(method='get', action='')
+        .jumbotron.text-center
+          p.typehead-lg
+            input.zip.text-center(type='text', autofocus='true', placeholder='Enter Zip-code')
+            button#get-zip.btn.btn-lg.btn-primary(type='button') Check your weather
+          h1#city.city.text-center City
+          h4#cond.cond.text-center Condition
+          h3#temp.temp.text-center Temperature
+          h2#icon.icon.text-center icon
+    .container
+      .row
+        #yesterday.col-md-4.text-center
+          h4#day0.day Yesterday
+          h4#date0.date
+          h4#icon0.icon
+          h4#hi0.hi
+          h4#lo0.lo
+        #days1.col-md-4.text-center
+          h4#day1.day
+          h4#date1.date
+          h4#icon1.icon
+          h4#hi1.hi
+          h4#lo1.lo
+        #days2.col-md-4.text-center
+          h4#day2.day
+          h4#date2.date
+          h4#icon2.icon
+          h4#hi2.hi
+          h4#lo2.lo
+        #days3.col-md-4.text-center
+          h4#day3.day
+          h4#date3.date
+          h4#icon3.icon
+          h4#hi3.hi
+          h4#lo3.lo
+        #days4.col-md-4.text-center
+          h4#day4.day
+          h4#date4.date
+          h4#icon4.icon
+          h4#hi4.hi
+          h4#lo4.lo
+        #days5.col-md-4.text-center
+          h4#day5.day
+          h4#date5.date
+          h4#icon5.icon
+          h4#hi5.hi
+          h4#lo5.lo
+    h5.text-center Copyright © 2015 Amah Ajavon
+    
+  script(src='/vendor/jquery/dist/jquery.js')
+  script(src='/weather.js')
+  script(src='/main.js')
