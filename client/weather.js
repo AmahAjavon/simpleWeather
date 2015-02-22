@@ -13,7 +13,7 @@ var Weather = function(){
       q = '/q/' + query.coords.latitude + ',' + query.coords.longitude + '.json';
     }
     else if(query.zipCode){
-      q = '/q/zip' + query.zipCode + '.json';
+      q = '/q/zip/' + query.zipCode + '.json';
     }
     var errorCallback = function(err){
       console.log('in error callback',err);

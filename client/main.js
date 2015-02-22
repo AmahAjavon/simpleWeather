@@ -9,9 +9,10 @@ function init() {
   $('#get-zip').click(getZip);
 }
 
-function getZip() {
+function getZip(event) {
   var zipcode = $('.zip').val();
   getWeatherAndDisplay({zipCode: zipcode});
+  event.preventDefault();
 }
 
 
@@ -27,7 +28,10 @@ function getWeatherAndDisplay(query) {
   var successCallback = function(response){
   console.log(response);
     if(response.response.error){
+
       alert(response.response.error.description);
+
+
       return ;
     }
     weather[this.field] = response;

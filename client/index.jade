@@ -9,11 +9,11 @@ html(lang='en')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js')
   body
     .container
-      form(method='get', action='')
+      form(method='get')
         .jumbotron.text-center
           p.typehead-lg
             input.zip.text-center(type='text', autofocus='true', placeholder='Enter Zip-code')
-            button#get-zip.btn.btn-lg.btn-primary(type='button') Check your weather
+            button#get-zip.btn.btn-lg.btn-primary Check your weather
           h1#city.city.text-center City
           h4#cond.cond.text-center Condition
           h3#temp.temp.text-center Temperature
