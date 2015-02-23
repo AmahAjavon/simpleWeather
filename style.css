@@ -1,0 +1,55 @@
+.jumbotron {
+  background-color: transparent;
+}
+p.typehead-lg {
+  background-color: transparent;
+}
+#yesterday {
+  background-color: yellow;
+}
+#days1 {
+  background-color: purple;
+}
+#days2 {
+  background-color: violet;
+}
+#days3 {
+  background-color: red;
+}
+#days4 {
+  background-color: deepskyblue;
+}
+#days5 {
+  background-color: orange;
+}
+body {
+  background-color: #CCFFFF;
+  background-image: radial-gradient(circle closest-side, #ccffff, #33ff33);
+}
+div,
+td {
+  font-family: "HelveticaNeue-UltraLight";
+  color: #333399;
+}
+h4 {
+  font-size: 25px;
+}
+img {
+  height: 70px;
+}
+#main {
+  text-align: center;
+}
+#city {
+  font-size: 80px;
+  text-shadow: 1px 1px 0 #CCC,2px 2px 0 #CCC, 3px 3px 0 #444,4px 4px 0 #444,5px 5px 0 #444,6px 6px 0 #444;
+}
+#temp {
+  font-size: 50px;
+  text-shadow: 1px 1px 0 #CCC,2px 2px 0 #CCC, 3px 3px 0 #444,4px 4px 0 #444,5px 5px 0 #444,6px 6px 0 #444;
+  box-shadow: 2px 2px 8px #000000;
+}
+#icon {
+  font-size: 80px;
+  text-shadow: 1px 1px 0 #CCC,2px 2px 0 #CCC, 3px 3px 0 #444,4px 4px 0 #444,5px 5px 0 #444,6px 6px 0 #444;
+}
