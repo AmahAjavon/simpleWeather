@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple weather app by Amah Ajavon</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form method="get">
+        <div class="jumbotron text-center">
+          <p class="typehead-lg">
+            <input type="text" autofocus="true" placeholder="Enter Zip-code" class="zip text-center">
+            <button id="get-zip" class="btn btn-lg btn-primary">Check your weather</button>
+          </p>
+          <h1 id="city" class="city text-center">City</h1>
+          <h4 id="cond" class="cond text-center">Condition</h4>
+          <h3 id="temp" class="temp text-center">Temperature</h3>
+          <h2 id="icon" class="icon text-center">icon</h2>
+        </div>
+      </form>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div id="yesterday" class="col-md-4 text-center">
+          <h4 id="day0" class="day">Yesterday</h4>
+          <h4 id="date0" class="date"></h4>
+          <h4 id="icon0" class="icon"></h4>
+          <h4 id="hi0" class="hi"></h4>
+          <h4 id="lo0" class="lo"></h4>
+        </div>
+        <div id="days1" class="col-md-4 text-center">
+          <h4 id="day1" class="day"></h4>
+          <h4 id="date1" class="date"></h4>
+          <h4 id="icon1" class="icon"></h4>
+          <h4 id="hi1" class="hi"></h4>
+          <h4 id="lo1" class="lo"></h4>
+        </div>
+        <div id="days2" class="col-md-4 text-center">
+          <h4 id="day2" class="day"></h4>
+          <h4 id="date2" class="date"></h4>
+          <h4 id="icon2" class="icon"></h4>
+          <h4 id="hi2" class="hi"></h4>
+          <h4 id="lo2" class="lo"></h4>
+        </div>
+        <div id="days3" class="col-md-4 text-center">
+          <h4 id="day3" class="day"></h4>
+          <h4 id="date3" class="date"></h4>
+          <h4 id="icon3" class="icon"></h4>
+          <h4 id="hi3" class="hi"></h4>
+          <h4 id="lo3" class="lo"></h4>
+        </div>
+        <div id="days4" class="col-md-4 text-center">
+          <h4 id="day4" class="day"></h4>
+          <h4 id="date4" class="date"></h4>
+          <h4 id="icon4" class="icon"></h4>
+          <h4 id="hi4" class="hi"></h4>
+          <h4 id="lo4" class="lo"></h4>
+        </div>
+        <div id="days5" class="col-md-4 text-center">
+          <h4 id="day5" class="day"></h4>
+          <h4 id="date5" class="date"></h4>
+          <h4 id="icon5" class="icon"></h4>
+          <h4 id="hi5" class="hi"></h4>
+          <h4 id="lo5" class="lo"></h4>
+        </div>
+      </div>
+    </div>
+    <h5 class="text-center">Copyright © 2015 Amah Ajavon</h5>
+  </body>
+  <script src="/vendor/jquery/dist/jquery.js"></script>
+  <script src="/weather.js"></script>
+  <script src="/main.js"></script>
+</html>
